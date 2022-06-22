@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loving Songs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
+    <script src="https://kit.fontawesome.com/114e1ec074.js" crossorigin="anonymous"></script>
+    <script data-main="scripts/main" src="scripts/require.js"></script>
+  </head>
+  <body>
+
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <p class="title">
+          Loving Songs
+        </p>
+        <p class="subtitle" id="date">
+        </p>
+      </div>
+    </section>
+
+    <section class="section is-small">
+      <span class="icon-text">
+        <h1 class="title">
+        <span class="icon has-text">
+          <i class="fas fa-music"></i>
+        </span>
+        <span>Today's Song - </span><span id='song_info'></span>
+        </h1>
+      </span>
+      <br><br>
+      <p id="song_frame"></p>
+    </section>
+
+
+    <section class="section is-small" id='love_note'>
+      <article class="message is-danger">
+        <div class="message-header">
+          <span class="icon-text">
+            <span class="icon has-text">
+              <i class="fas fa-heart"></i>
+            </span>
+            <span>Note</span>
+          </span>
+        </div>
+        <div class="message-body" id='love_note_body'>
+        </div>
+      </article>
+    </section>
+
+    <section class="section is-medium"></section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Made for my wife in 2022. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+        </p>
+      </div>
+    </footer>
+
+  </body>
+</html>
